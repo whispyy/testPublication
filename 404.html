@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="/testPublication/css/normalize.css">
+  <link rel="stylesheet" href="/testPublication/css/solo.css">
+  <link rel="stylesheet" href="/testPublication/css/syntax.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/testPublication/css/rrssb.css">
+  <link rel="stylesheet" href="/testPublication/css/bootstrap.min.css">
+  <!--css side comments-->
+  <link rel="stylesheet" href="/testPublication/css/default-theme.css">
+  <link rel="stylesheet" href="/testPublication/css/side-comments.css">
+  <!--css toastr-->
+  <link rel="stylesheet" href="/testPublication/css/toastr.css">
+  <!-- end css -->
+
+  <!-- lib - js -->
+  <script src="/testPublication/scripts/lib/jquery.js"></script>
+  <script src="/testPublication/scripts/lib/bootstrap.min.js"></script>
+  <script src="/testPublication/scripts/lib/side-comments.js"></script>
+  <script src="/testPublication/scripts/lib/toastr.js"></script>
+  <!-- end lib - js -->
+
+  <!-- modules - js -->
+  <script src="/testPublication/scripts/modules/cookies.js"></script>
+  <script src="/testPublication/scripts/modules/request.js"></script>
+  <!-- end modules - js -->
+
+  <link rel="canonical" href="http://localhost:4000" />
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<link rel="canonical" href="http://localhost:4000/testPublication/404.html" />
+<meta property="og:url" content="http://localhost:4000/testPublication/404.html" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "http://localhost:4000/testPublication/404.html"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand navbar-center" href="#"></a>
+      <button id="signIn" type="button" class="btn btn-default navbar-btn navbar-right" data-toggle="modal" data-target="#myModal">Sign-in</button>
+      <button id="signOut" type="button" class="btn btn-default navbar-btn navbar-right">Sign-out</button>
+    </div>
+  </nav>
+  <br /><br />
+  <article>
+   <div class="container">
+    <h1><a href="./"></a></h1>
+    <br />
+    <div class="auteurs">
+     
+    </div>
+    <div class="contenu" id="commentable-area">
+      <h1>No such thing as that, sorry</h1>
+
+Page Not Found.
+
+<br />
+
+Try <a href="">http://localhost:4000/testPublication/</a>
+    </div>
+    <div id="comments" class="list-group"></div>
+    <div id="addComment">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h5>Comment</h5>
+        </div>
+        <div class="panel-body">
+          <div class="col-xs-12">
+            <input id="title" type="text" placeholder="Title or Paragraph number" style="min-width: 100%">
+          </div>
+          <div class="col-xs-12">
+            <textarea id="body" rows="3" placeholder="Body" style="min-width: 100%"></textarea>
+          </div>
+          <div class="col-xs-3 col-xs-offset-9">
+            <button class="btn btn-primary btn-float" id="sendIssue">
+              Send Comment
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </article>
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Github Sign-In</h4>
+        </div>
+        <div class="modal-body text-center">
+          <label for="username">Username:</label>
+          <input id="username" type="text" placeholder="username">
+          <br />
+          <label for="password">Password:</label>
+          <input id="password" type="password" placeholder="password">
+          <br /><br />
+          <button type="button" class="btn btn-primary" id="connect" data-dismiss="modal">Connect</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end Modal -->
+  <script type="text/javascript">
+  var userrepo = "Whispyy"
+  var repo = "testPublication"
+  </script>
+  <script src="/testPublication/scripts/rrssb.min.js"></script>
+  <script src="/testPublication/scripts/connectGithub.js"></script>
+  <script src="/testPublication/scripts/retrieveIssues.js"></script>
+  <script src="/testPublication/scripts/pushIssues.js"></script>
+</body>
+</html>
